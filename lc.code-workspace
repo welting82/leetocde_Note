@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"new": "cpp",
+			"initializer_list": "cpp",
+			"cwchar": "cpp",
+			"exception": "cpp",
+			"type_traits": "cpp"
+		}
+	}
+}

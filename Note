@@ -1,0 +1,8 @@
+[11] Container With Most Water:
+1. 秒想到two piointer 向內夾沒錯，但一直不確定如果兩邊高度相同會不會有影響(像是local max之類的)
+
+[2501] Longest Square Streak in an Array:
+1. 先sort再說，一開始想到的是每個num都去看一遍(平方後找值)紀錄最長，但會TLE
+2. 想到用priority_queue，紀錄不匹配的數的平方，如果歷遍的數比pq的top還大，代表這個sub已經不可能再接下去了，可以比較最大後放掉
+3. 要注意平方後會超過int range，懶人用long long就可以解
+4. 正常解: 歷遍每個數且用while再包一次平方，然後while內用count找
