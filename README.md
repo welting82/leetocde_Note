@@ -38,6 +38,10 @@
 * 一開始沒想到用two pointer,只用sum++搭配hash table記哪些用過
 * 沒想到這樣會lose掉前面沒有重複的字元,才想到要改用two pointer
 
+## [8] String to Integer (atoi)
+* 簡單看了一下題意,看起來是要轉換數到string,但例外處理導致一直error
+* int 超過INT_MAX的不是用餘除,是直接return INT_MAX/INT_MIN
+* 空格/加號/減號是只能出現在最前面並且加號/減號只能一次
 
 
 
