@@ -29,3 +29,16 @@
 * 原本享用queue,只記錄能持續往下走的，若不能往下走，就比較最大，但資料結構應該需要自定義struct
 * 這次寫出來是用dp解，解答是用dfs，code看起來簡單很多
 * 要注意題目是說起點必須是第一個row，不能從中間開始，也就是這個限制沒想到才用dp
+
+## [6] Zigzag Conversion
+* 原本想用歸納法套公式解,發現好像會沒辦法用for loop處理
+* 靈光一閃想到,用vector<string> 存不同層的string,控制好來回跑的index就好
+
+## [3] Longest Substring Without Repeating Characters
+* 一開始沒想到用two pointer,只用sum++搭配hash table記哪些用過
+* 沒想到這樣會lose掉前面沒有重複的字元,才想到要改用two pointer
+
+
+
+
+
