@@ -43,6 +43,8 @@
 * int 超過INT_MAX的不是用餘除,是直接return INT_MAX/INT_MIN
 * 空格/加號/減號是只能出現在最前面並且加號/減號只能一次
 
-
+## [5] Longest Palindromic Substring
+* 這題以前面試考過（心魔）,有想到要用從中間開始往外找的方法,但idx太繁瑣
+* 要注意substr用法,還有l/r位置,l/r初始化位置,while loop idx條件
 
 
