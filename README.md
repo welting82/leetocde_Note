@@ -47,4 +47,22 @@
 * 這題以前面試考過（心魔）,有想到要用從中間開始往外找的方法,但idx太繁瑣
 * 要注意substr用法,還有l/r位置,l/r初始化位置,while loop idx條件
 
+## [1671] Minimum Number of Removals to Make Mountain Array
+* hard QQ, 寫不出來看答案，了解了LIS(Long Increase Subarray)演算法，可以用dp/ binary search做
+* 左到右 + 右到左找完後，再全部看一次，長度就是 inc+dec-1，需要扣除最後點重複計算，然後再拿全部扣就是需要移除的數量
 
+## [215] Kth Largest Element in an Array
+* priority_queue不解釋
+
+## [347] Top K Frequent Elements
+* 先用hash map收集freq, 然後再用heap 照頻率排好後收集
+
+## [264] Ugly Number II
+* 有兩個想法，但都沒成功寫出來
+* 找出2/3/5的組成，然後排列找指定的idx(寫不出來)
+* 一個一個cnt加上去，判斷每個cnt是不是只有2/3/5組成(TLE)
+* 看了解答，類似第一種作法，紀錄2/3/5的次數，loop到n，每個loop判斷min拿走並填入dp vector
+* 藉由紀錄dp vector + 2/3/5的次數,就可以處理2 * 3 = 6 這種case
+
+## [355] Design Twitter
+* 用兩個vector存文章跟user之間的關係，新文章要記得insert在vector前，然後存到10個直接break，剩下都夠直覺

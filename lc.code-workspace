@@ -10,7 +10,9 @@
 			"initializer_list": "cpp",
 			"cwchar": "cpp",
 			"exception": "cpp",
-			"type_traits": "cpp"
+			"type_traits": "cpp",
+			"unordered_map": "cpp",
+			"ostream": "cpp"
 		}
 	}
 }
