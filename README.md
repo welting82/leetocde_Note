@@ -66,3 +66,38 @@
 
 ## [355] Design Twitter
 * 用兩個vector存文章跟user之間的關係，新文章要記得insert在vector前，然後存到10個直接break，剩下都夠直覺
+
+## [2] Add Two Numbers
+* 基本的加法運算,注意carryin就好,原本想要重複使用l1的空間,但會變很複雜,包含長度,ptr指去哪之類的問題,不如還是每個node都開新的吧
+
+## [19] Remove Nth Node From End of List
+* 想到的還是用遞迴做,解答用two pointer（先設定好距離,然後走到底),兩種都可以,但要記得最先面可能都需要多一個node才能處理第一個node被刪掉的case
+
+## [24] Swap Nodes in Pairs
+* 原本想用很奇怪的寫法（ptr1 = 1, ptr2 = 3, 2->1, 1->4,這樣loop),最後再解決最後一組問題，但問題出在無法解p->next->next=p bug (奇偶case)
+* 看了答案差了不少,要記得pre&head 指向的都是跳一個node,然後往回指就差不多了
+  
+## [61] Rotate List
+* 想法跟解答一樣,但實作時遇到尾街上頭之後會報錯（heap error之類的）,還好後來有解開
+* 先數他會rotate幾次,然後就可以找出頭以及把尾巴設成nullptr
+
+## [82] Remove Duplicates from Sorted List II
+* 想到的是先用hash map收集一輪再判斷這顆node要不要拿,但這樣就浪費掉他排序的優勢了
+* 另一種做法是利用排序的優勢,判斷當前這顆是否等於下一顆,while到不等於為止,需要特別注意如果連續兩組重複的case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
