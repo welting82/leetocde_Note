@@ -97,7 +97,24 @@
 * 以前是用遞迴＋swap寫出來的,這次寫不出來
 * 重點在於頭尾要如何相連,指針的next要特別注意
 
+## [649] Dota2 Senate
+* 這題剛好還有印象,有點像是排隊一個一個處理,於是用queue寫一寫後,發現好像直接一直輪string也是可以
+* 控制好還剩幾個人以及宣告勝利條件就好
 
+## [641] Design Circular Deque
+* 不想用queue來做,結果index設計不好,只好看答案
+* 看到以前的自己用vector STL API做...
+* 可以記一下vector ring index的做法 f = (f - 1 + cap)% cap, r = (r + 1)%cap; 
+
+
+## [622] Design Circular Queue
+* 本以為跟641一樣,但還是有差別,641是頭尾可以塞/讀/pop,這題只能讀頭尾+塞尾/pop頭
+* 仿照上一題寫法可完成大部分,唯獨注意f&r的起始位置(f = 0, r = k - 1)
+
+## [341] Flatten Nested List Iterator
+* 看不懂題意,只好看答案怎麼做
+* 了解題意後,感覺應該是能直接做在api裏面,但應該很麻煩
+* 用遞迴把list裡面的值全部排到vector上,再讓api一個一個抓出來
 
 
 
