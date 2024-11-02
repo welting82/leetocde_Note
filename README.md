@@ -116,6 +116,33 @@
 * 了解題意後,感覺應該是能直接做在api裏面,但應該很麻煩
 * 用遞迴把list裡面的值全部排到vector上,再讓api一個一個抓出來
 
+## [2490] Circular Sentence
+* 判斷最前面跟最後一個是否一樣（大小寫有分） ＆ 判斷空格前後是否一樣即可（空格不會出現在頭尾,所以不用處理邊界條件）
+
+## [71] Simplify Path
+* 寫到一半才想到要用stack...,原本想用string記錄過程,後來發現應該一個dir存去stack,這樣才能處理回上一層的作法
+* 注意最後stack出來是反的,需要處理一下就好
+
+## [114] Flatten Binary Tree to Linked List
+* 用queue先錄下pre-order dfs路徑,然後在一個一個assign回去,雖然會過,但這樣多用了一些空間,題目有說最吼是不要額外要空間
+* 看解答是先檢查root->left,有的話把root->left->right整串搬到root->right,當然要接上原本root->right
+* 要注意不要同時指到同一顆node,會有heap error,指走了要記得assign nullptr;
+
+## [143] Reorder List
+* 用了stack紀錄ll,這樣就可以自帶reverse,後面只要串起來+判斷stack top是否等於curr or curr->next當結束條件
+* 解答是先找出中間點,然後reverse ll, 最後再merge
+
+## [150] Evaluate Reverse Polish Notation
+* 忘了有stoi可以用,自己做了一個str2num,其中也包含轉換+-*/,換成值域以外的數字作為判斷
+* 剩下差不多都是用stack完成,也看到以前的自己有用遞迴完成(雖然很慢)
+
+
+
+
+
+
+
+
 
 
 
