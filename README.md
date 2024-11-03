@@ -136,14 +136,23 @@
 * 忘了有stoi可以用,自己做了一個str2num,其中也包含轉換+-*/,換成值域以外的數字作為判斷
 * 剩下差不多都是用stack完成,也看到以前的自己有用遞迴完成(雖然很慢)
 
+## [796] Rotate String
+* 考慮太多..., 想到可能字元有重複的可能,用while找s[0],然後歷遍
+* 解答用先把s做成兩倍長,然後找goal直接找是不是substr,要記得先檢查長度避免s多了goal沒有的
 
+## [3340] Check Balanced String
+* 比賽題,easy不解釋,單純比奇偶大小
 
+## [3341] Find Minimum Time to Reach Last Room I
+* 比賽題, 原本用dp結果題意根本理解錯了，本以為只能往右往下,但其實是任意路徑,且出發點那格是可以回來的
+* 後來想到要用bfs,但擔心queue塞了太多會爆,於是改用priority_queue 把時間最小的放最前面 & vector紀錄是否走過
 
+## [3342] Find Minimum Time to Reach Last Room II
+* 比賽題, 跟上一題差不多,但改成每次穿過房間要+1/+2秒輪替
+* 本以為用bool輪就好,但他需要的是看上一個點是+1 or +2, 所以又多了一個vector紀錄原本狀態
 
-
-
-
-
+## [3343] Count Number of Balanced Permutations
+* 沒寫 & 時間不夠 & 還沒想法 & 還沒有人做解說可以看
 
 
 
