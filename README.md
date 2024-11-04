@@ -158,6 +158,16 @@
 ## [3343] Count Number of Balanced Permutations
 * 沒寫 & 時間不夠 & 還沒想法 & 還沒有人做解說可以看
 
+## [3163] String Compression III
+* 很直覺的for loop + 判斷式...
+
+## [96] Unique Binary Search Trees
+* 有偷看答案 + 想了一陣子才想到要用區分左子樹 * 右子樹，然後還要loop，類似dp的做法
+
+## [95] Unique Binary Search Trees II
+* 原本沒做95，然後想不出來，最後偷看答案在回去先做96，做完再回來做這題
+* 做完96後就有想法了，把原本乘法的部分改成用vector紀錄，並且要用兩層loop 去配對左右子樹
+
 
 
 
