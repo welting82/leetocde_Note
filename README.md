@@ -97,6 +97,10 @@
 * 以前是用遞迴＋swap寫出來的,這次寫不出來
 * 重點在於頭尾要如何相連,指針的next要特別注意
 
+## [1957] Delete Characters to Make Fancy String
+* 蠻直覺判斷是否重複超過3個，額外多開一個string or 用原本的都可以
+* 如果用原本的，要記得控制好idx，還有最後要記得resize(idx)
+
 ## [649] Dota2 Senate
 * 這題剛好還有印象,有點像是排隊一個一個處理,於是用queue寫一寫後,發現好像直接一直輪string也是可以
 * 控制好還剩幾個人以及宣告勝利條件就好
@@ -153,6 +157,7 @@
 
 ## [3343] Count Number of Balanced Permutations
 * 沒寫 & 時間不夠 & 還沒想法 & 還沒有人做解說可以看
+
 
 
 
