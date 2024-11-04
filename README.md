@@ -168,9 +168,13 @@
 * 原本沒做95，然後想不出來，最後偷看答案在回去先做96，做完再回來做這題
 * 做完96後就有想法了，把原本乘法的部分改成用vector紀錄，並且要用兩層loop 去配對左右子樹
 
+## [98] Validate Binary Search Tree
+* Binary seatch tree的特性就是inorder之後, value會increase,所以只要把value記下來,然後比大小就好
+* 注意第一個值要處理一下, 題目value range: {-2^31,2^31-1}
 
-
-
+## [99] Recover Binary Search Tree
+* 想不出來看解答, 一樣利用升序的原理+用兩個ptr + pre比大小，記錄破壞升序的兩個位置
+* 要注意紀錄的事pre還是curr
 
 
 
