@@ -184,10 +184,11 @@
 * 跟之前的想的答案一樣，用vector + compare判斷做完,但很慢
 * 看解答用pointer的方式做,果然比較快,要背下來
 
+## [211] Design Add and Search Words Data Structure
+* 想法跟上一題差不多,只是遇到*要特別處理,但debug花了太多時間,其中有有偷看答案,可能就是不熟
 
-
-
-
+## [2914] Minimum Number of Changes to Make Binary String Beautiful
+* 懶得想,抄答案了,但看起來不難,需要時間歸納一下
 
 
 
