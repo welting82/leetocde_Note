@@ -190,6 +190,39 @@
 ## [2914] Minimum Number of Changes to Make Binary String Beautiful
 * 懶得想,抄答案了,但看起來不難,需要時間歸納一下
 
+## [3011] Find if Array Can Be Sorted
+* 沒看清楚題意,沒注意到需要相鄰,改了寫法後,用指針紀錄sub vector然後sort,最後再判斷是否升序
+* 答案寫法是用vector<pair<int,int>>紀錄 sub vector的{max,min},最後再判斷升序
+
+## [34] Find First and Last Position of Element in Sorted Array
+* 簡單的for loop + 判斷式有寫出來,也有想到可以用binary search,但是沒寫出來
+* 用binary search的時候要記得找到了還是要繼續往target兩邊的邊界找
+
+## [33] Search in Rotated Sorted Array
+* 這題有印象,斷掉的升序vector, 但忘記sort要怎麼寫了,看了答案,分兩段檢查,看tgt有沒有被包在裡面
+* 只是不知道binary search的一些例外處理要怎麼寫...
+
+## [36] Valid Sudoku
+* 本以為這題跟binary search相關,就一直往那個方向去想,結果想不出來
+* 看了答案,才發現以前的自己應該是確實有寫出來(雖然很慢),但想法是對的,基本上就是慢慢輪詢+紀錄走過的數字有沒有重複而已
+
+## [31] Next Permutation
+* 有想出來但debug花了很多時(總共1hr...), 從後面找出比當前這點大但又是全部中最小的做交換,後面在重排一次就好
+* 如果由後往前都是升序的話,就直接全部重排
+* 上面看不懂的話,簡單說就是由後往前找value peak,然後再重後往前找比nums[peak-1]大的值交換,再重排peak後的順序就好
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
