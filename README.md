@@ -230,10 +230,17 @@
 * 用dfs寫,但寫出了bug,看誇湖到脫窗加上一直被吵,完全無法思考,直接看答案
 * 典型的back trace, 加了一個'('後就要釋放掉,然後用兩個int紀錄現在有幾個'(' / ')'
 
+## [1829] Maximum XOR for Each Query
+* 有找到規律就蠻簡單的，多利用XOR的特性，升序似乎沒差
 
+## [451] Sort Characters By Frequency
+* 原本想用vector<int> 直接用sort查表，但sort完會有同字母沒排在一起的問題
+* 然後用unordered_map 做，但又遇到無法用sort的問題，最後只能用vector<pair<int,char>>了
+* 看答案也差不多架構，先收集freq,排序,最後擺回去輸出，但答案用heap
 
-
-
+## [373] Find K Pairs with Smallest Sums
+* 本以為寫得出來，想用idx控制順序，但卡在等於的狀況 + debug卡太久
+* 看題型，確實可以用heap做，本以為不需要
 
 
 
