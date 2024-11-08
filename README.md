@@ -242,9 +242,12 @@
 * 本以為寫得出來，想用idx控制順序，但卡在等於的狀況 + debug卡太久
 * 看題型，確實可以用heap做，本以為不需要
 
+## [378] Kth Smallest Element in a Sorted Matrix
+* 這題跟上面那題很像,原本還是想用idx找規律,後來還是喜說直接塞進去看看再說,發現heap可行, vecotr insert(A.end(), B.begin(), B.end()), 這樣快多了
 
-
-
+## [659] Split Array into Consecutive Subsequences
+* 原本用priority_queue寫，但寫不出把最短最小號的放前面,所以改用vector寫,只要沒辦法排的,就插在最前面就好,還好有寫出來,但很慢
+* 後來改良加個判斷,如果第二個sub vector最後的號碼已經沒辦法塞且長度<2且可以直接return了,寫起來概念跟答案差不多
 
 
 
