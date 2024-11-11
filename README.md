@@ -253,6 +253,24 @@
 * 有想到規律,n-1 然後擺進x就行,要注意n-1如果那個bit有1就要往前塞
 * 注意會超過32,1<<idx, 不是只有idx要long long, 1也需要(預設是int)
 
+## [82] Remove Duplicates from Sorted List II
+* 非常直覺的for loop, lc常態先多弄一個node,然後答案指向node->next,剩下就是找一樣的而已
+
+## [86] Partition List
+* 要分成大於or小於,直覺想到就是分兩串,大的一邊,小的一邊,最後在串起來就是答案了
+
+## [92] Reverse Linked List II  
+* 不小心排到短期第二次寫這題，不過這次記憶很新有寫出來,雖然很醜就是了
+* 記憶中是先把指針弄出相對距離（看來記錯題,是ll swap的做法,但也是可以用）然後再慢慢換指針
+
+
+
+
+
+
+
+
+
 
 
 
