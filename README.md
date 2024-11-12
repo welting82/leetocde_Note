@@ -267,12 +267,18 @@
 * 不小心排到短期第二次寫這題，不過這次記憶很新有寫出來,雖然很醜就是了
 * 記憶中是先把指針弄出相對距離（看來記錯題,是ll swap的做法,但也是可以用）然後再慢慢換指針
 
+## [2070] Most Beautiful Item for Each Query
+* 沒寫出來QQ，用了好多想法，但就是沒想到要binary search，看答案跟想法就是差在這邊
 
+## [1438] Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+* 被卡在如何維護最大最小值，看了答案，學習了multiset怎麼用，然後要注意erase是會把所有value一樣的拿掉，所以要用equal_range
+* 另一種解法是用兩個queue去維護升降序min,max
 
+## [950] Reveal Cards In Increasing Order
+* 沒想法，只有想到可能可以用idx去放res，但太難寫成code了，看了答案，學到了用queue做出idx，然後找他的規則放一次，res帶入nums[idx]即可
 
-
-
-
+## [1352] Product of the Last K Numbers
+* 有用vector直覺的寫出最慢的作法，解答有點看不懂
 
 
 

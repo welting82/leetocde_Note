@@ -12,7 +12,9 @@
 			"exception": "cpp",
 			"type_traits": "cpp",
 			"unordered_map": "cpp",
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"array": "cpp",
+			"utility": "cpp"
 		}
 	}
 }
