@@ -280,7 +280,8 @@
 ## [1352] Product of the Last K Numbers
 * 有用vector直覺的寫出最慢的作法，解答有點看不懂
 
-
+## [70] Design Front Middle Back Queue
+* 直覺得用vector寫完,速度還不慢
 
 
 
