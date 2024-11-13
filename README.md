@@ -283,6 +283,22 @@
 ## [70] Design Front Middle Back Queue
 * 直覺得用vector寫完,速度還不慢
 
+## [2563] Count the Number of Fair Pairs
+* 想法還好，至少有想到，但binary search 搞不定, 看答案是沒直接用API....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
