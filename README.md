@@ -286,11 +286,13 @@
 ## [2563] Count the Number of Fair Pairs
 * 想法還好，至少有想到，但binary search 搞不定, 看答案是沒直接用API....
 
+## [227] Basic Calculator II
+* 感覺寫過類似的,但這次沒有誇胡,也就是說要自己判斷先乘除後加減
+* 想到先處理乘除面在用stack加減就好,處理起來有點小麻煩就是了
 
-
-
-
-
+## [331] Verify Preorder Serialization of a Binary Tree
+* 沒寫出來ＱＱ,看了但差好多....,天真的以為用stack可以解,但後面一直卡在其他有的沒的問題,像是','之類的
+* 學習用stringstream 搭配 getline(),可以直接查找,之間的string,就很方便
 
 
 
