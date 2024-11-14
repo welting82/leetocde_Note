@@ -294,10 +294,23 @@
 * 沒寫出來ＱＱ,看了但差好多....,天真的以為用stack可以解,但後面一直卡在其他有的沒的問題,像是','之類的
 * 學習用stringstream 搭配 getline(),可以直接查找,之間的string,就很方便
 
+## [2064] Minimized Maximum of Products Distributed to Any Store
+* 完全沒想法，但看完達覺得沒那麼難...,用binary search找x(每家店配的不同商品的數量)
+* 我想太複雜了，以為需要處理每個商品配給每家店的量都不同,但其實可以找出x,去判斷分配所有商品後,店家數量是否會超過
 
+## [73] Set Matrix Zeroes
+* 這題以前寫過，用dfs完成但有小卡一下，需要區分本生就是0還是被清成0
+* 答案跑兩次loop,第一次紀錄0的row/col,第二次清成0
 
+## [49] Group Anagrams
+* 原本在想要怎麼sort vector的string,後來才想到用umap去存 & 分類
 
+## [105] Construct Binary Tree from Preorder and Inorder Traversal
+* 用dfs寫出來惹，但很慢，因為把vector slice花了不少時間，因為是pre & in, 所以其實處理 root前面就好
+* 應該要像答案一樣，用idx就好應該快不少
 
+## [106] Construct Binary Tree from Inorder and Postorder Traversal
+* 跟上面那題差不多，只是改成從後面開始找
 
 
 
