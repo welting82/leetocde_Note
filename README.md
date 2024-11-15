@@ -312,6 +312,28 @@
 ## [106] Construct Binary Tree from Inorder and Postorder Traversal
 * 跟上面那題差不多，只是改成從後面開始找
 
+## [1574] Shortest Subarray to be Removed to Make Array Sorted
+* 寫不出來想太久,下次再挑戰,答案想法是收集左邊升序＆右邊升序的subarr,然後在merge看看能不能更少
+
+## [102] Binary Tree Level Order Traversal
+* 這就經典bfs解完,沒啥
+
+## [103] Binary Tree Zigzag Level Order Traversal
+* 上一題加上reverse sub vector而已
+
+## [107] Binary Tree Level Order Traversal II
+* 上上一題加上reverse整個res而已
+
+## [113] Path Sum II
+* 用dfs走到最後,因要回傳vecotr path, 所以需要紀錄走過的數值,然後還要紀錄總和,當走到底時判斷有沒有等於tgtnum.
+
+
+
+
+
+
+
+
 
 
 
