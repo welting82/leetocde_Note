@@ -334,14 +334,21 @@
 * 原本還想說把code複製兩次，這樣就不用管index，答案寫出來後，發現這樣多占了一倍記憶體
 * 看人家寫才想到可以用餘除長度來做，這樣依樣可以確保idx再裡面轉，但倒回來的時候要記得+n
 
+## [421] Maximum XOR of Two Numbers in an Array
+* 想不到ㄏㄏ, 只好學習trie（字典樹）這個資料結構
 
+## [676] Implement Magic Dictionary
+* 嘗試利用上一題學到的trie練習架構,但這題的search有夠gy, 要求一定要可以換一個字元的才return true
+* 搞了很久,也參考答案寫的dfs,最後還是有刻出一自己一版
 
+## [648] Replace Words
+* 這次有比較熟tire結構了，然後也有想到strignstream + getline,但忘記怎麼寫,還需要再加強記憶
 
-
-
-
-
-
+## [677] Map Sum Pairs
+* 用trie or hashmap都可以,這次是練習trie,所以用trie + dfs搜尋剩下的val
+* 經過上一題的洗禮,這題用trie寫得蠻順的,先prefix完把ptr洗到prefix後面,然後再dfs loop所有可能的val (用endWord判斷)
+* 反而如果用hashmap沒想法怎麼處理prefix的部分
+* 看答案用hashmap, 用prefix == s.substr(0,prefix.size())判斷
 
 
 
