@@ -350,11 +350,20 @@
 * 反而如果用hashmap沒想法怎麼處理prefix的部分
 * 看答案用hashmap, 用prefix == s.substr(0,prefix.size())判斷
 
+## [2461] Maximum Sum of Distinct Subarrays With Length K
+* sliding window + bitset(好用)
 
+## [46] Permutations
+* dfs, 被init的狀況卡了好久，雖然是寫出來了，但時間不理想，debug太慢了
 
+## [45] Jump Game II
+* 用了2層loop，雖然過了，但比較慢，答案那種寫法，可能想不到，但時間應該算是有在時間內
 
+## [39] Combination Sum
+* 用類似上一題的寫法硬幹出來，然後還找到避開unordered_set<vector<int>>的作法(把vecotr<int>放到string去)，但很慢
+* 解答這想法應該是backtrace 的作法，但想不太到，跟上一題應該是蠻像的
 
-
-
-
-
+## [40] Combination Sum II
+* 這題跟上一題差不多，但從上一題的答案下去改改不出來，只好又看了一次答案ㄏㄏ
+* 但這題的重點是重複的不能選到(選多次的除外)
+* backtrace感覺還不夠熟
