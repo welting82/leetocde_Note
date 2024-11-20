@@ -373,12 +373,21 @@
 * 但這樣acba這個case會過不了，因為b會框到右邊那個a
 * 只好又抄了一次答案，答案是分成3個區間，然後確保左右兩側區間的count數 > k(用兩個idx作加減)
 
+## [43] Multiply Strings
+* 原本以為寫得出來,最後卡在乘法的order亂掉惹＠＠
+* 答案的做法是先建一個兩個string長度的vector,然後double loop 由後往前乘,乘完往裡面放,最後在處理前面0的問題＆轉成string
 
+## [71] Simplify Path  
+* 這題幾週前寫過了,還好還記得,這次想用getline來用,但還是忘了stringstream ss(str) 這種init方式,再多練幾次
 
+## [72] Edit Distance
+* 依然不會,沒想起來, 看答案才想起來要用dp....
+* 應該要想到這種每次loop都要選擇的題目,應該要用dp做才對
+* 只是這題蠻特別的是如果word1[i] != word2[j], 就要從replease[i-1][j-1]/increase[i-1][j]/delete[i][j-1]中選一個
 
-
-
-
+## [79] Word Search
+* 經典dfs找路徑,但需要處理走過的部分,原本用vis<bool>放在global來處理，但這樣同樣一條路徑,如果有兩個符合條件的路,各自發展下去就不能交叉(因為已經被走過)
+* 有可能改成local應該可以解決,但我選擇看之前的我怎麼寫的Ｑ,之前是把走過的char改成'.',這樣當func argv在傳的時候，就不會受其他條路徑影響(記得4向dfs走完要改回來)
 
 
 
