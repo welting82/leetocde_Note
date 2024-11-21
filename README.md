@@ -389,6 +389,22 @@
 * 經典dfs找路徑,但需要處理走過的部分,原本用vis<bool>放在global來處理，但這樣同樣一條路徑,如果有兩個符合條件的路,各自發展下去就不能交叉(因為已經被走過)
 * 有可能改成local應該可以解決,但我選擇看之前的我怎麼寫的Ｑ,之前是把走過的char改成'.',這樣當func argv在傳的時候，就不會受其他條路徑影響(記得4向dfs走完要改回來)
 
+## [2257] Count Unguarded Cells in the Grid
+* 想過用數學的方式去算出每個g的4向格子數量，但這樣會算到重覆的
+* 發現數學方式不行，只好回去用dfs，但遇到一堆TLE問題，包含進入g後去找到其他g，然後跑不出來
+* 或是其實他不需要真的跑dfs，只要多一層for loop就夠了，也有遇到重複跑兩個g的區域也會超時
+
+## [692] Top K Frequent Words
+* 這題蠻直覺的，用hash map先蒐集freq，然後用priorty_queue 照comp()排好，就可以抓答案出來
+* 但我對priorty_queue 自訂義func不熟，所以想到抓出來時，先放到vector tmp去，等這頻率不一樣，再把tmp放到res
+* 只是這樣需要處理，當res.size() > k 還有 res.size() < k問題(tmp有可能放進去長度超過)
+
+
+
+
+
+
+
 
 
 
