@@ -426,8 +426,8 @@
 ## [117] Populating Next Right Pointers in Each Node II
 * 用上一題的解法可以直接過...
 
-
-
+## [142] Linked List Cycle II
+* 龜兔賽跑延續題,還好還記得
 
 
 
