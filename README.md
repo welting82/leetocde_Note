@@ -420,17 +420,11 @@
 ## [138] Copy List with Random Pointer
 * 蠻直覺寫出next，處理random的時候，基本用umap+數idx去控制ll的ptr
 
+## [116] Populating Next Right Pointers in Each Node
+* 直覺用bfs寫完，然後看到以前是用dfs,只要管好root的左到右& root下面兩個subtree的左到右就好
 
-
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
-
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
-
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
-
-
-
-
+## [117] Populating Next Right Pointers in Each Node II
+* 用上一題的解法可以直接過...
 
 
 
