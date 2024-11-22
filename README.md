@@ -414,11 +414,19 @@
 * 想直接硬幹,懶得想分子分母誰大誰小的問題,發現還真的這樣寫就好
 * 看到以前的自己的答案,發現用vector比pair慢很多
 
+## [1072] Flip Columns For Maximum Number of Equal Rows
+* 沒想法，看答案後，發現找row相同pattern收集就可以了，理由是因為可以任意換col，所以row相同pattern就代表可以一起被換
+
+## [138] Copy List with Random Pointer
+* 蠻直覺寫出next，處理random的時候，基本用umap+數idx去控制ll的ptr
 
 
 
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
 
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
 
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=linked-list&difficulty=MEDIUM
 
 
 
