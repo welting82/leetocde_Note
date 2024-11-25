@@ -433,6 +433,19 @@
 * 蠻直覺的,mat順時針轉 + 判斷落下的作法, 轉順時針注意idx就可以了
 * 判斷落下我原本用while從底部一個一個判斷,雖然過了但慢了一點,參考別人的用lowest記錄最後一個,速度就上來了
 
+## [1696] Jump Game VI
+* 原本以為dp/ greedy可以做,結果試了greedy不行,dp 也會tle,看答案是要再加個dequeue,但沒到很懂(大概下次還是忘＠＠)
+* 另外也認識到monotonic queue/stack
+
+## [1823] Find the Winner of the Circular Game
+* 因為知道是queue類型的題目,所以用queue既可以很簡單的實作
+* 但其實這題用dp/遞迴有更快的寫法,需要推一下規律
+
+## [2327] Number of People Aware of a Secret
+* 想法用queue寫,但memory會爆掉,答案用dp,還是不太懂
+
+## [2526] Find Consecutive Integers from a Data Stream
+* 用counter解,確實無法理解為什麼是mid, 或許原本是要用queue之類的吧,但我覺得可能會太慢
 
 
 
@@ -441,10 +454,8 @@
 
 
 
-1696. Jump Game VI
-1823. Find the Winner of the Circular Game
-2327. Number of People Aware of a Secret
-2526. Find Consecutive Integers from a Data Stream
+
+
 
 
 
