@@ -447,7 +447,9 @@
 ## [2526] Find Consecutive Integers from a Data Stream
 * 用counter解,確實無法理解為什麼是mid, 或許原本是要用queue之類的吧,但我覺得可能會太慢
 
-
+## [2924] Find Champion II
+* 直接想到用uniob find，然後為了避免再回區圈內找不到winner，需要再一個vis記錄走過的
+* 答案寫法更簡單，直接紀錄沒輸過的就可以了
 
 
 
