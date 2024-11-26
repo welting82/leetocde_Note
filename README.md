@@ -451,13 +451,17 @@
 * 直接想到用uniob find，然後為了避免再回區圈內找不到winner，需要再一個vis記錄走過的
 * 答案寫法更簡單，直接紀錄沒輸過的就可以了
 
+## [456] 132 Pattern
+* 用找左右的方式還是TLE,看答案學monotonic stack概念
 
+## [503] Next Greater Element II
+* 上一題學到了monotonic stack,這題直接現學現賣就過了...
 
+## [636] Exclusive Time of Functions
+* 這題題目講得很複雜,光搞懂就花了15分鐘...,然後有兩個地方卡關
+* 一個是log的處理,但是例外在用一個struct處理string
+* 另一個就是stack要怎麼操作,實在沒想法(看答案是用扣的)
 
-
-
-
-
-
-
+## [581] Shortest Unsorted Continuous Subarray
+* 有想到先排好,然候比較不同的start / end
 
