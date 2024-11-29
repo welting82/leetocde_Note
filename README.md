@@ -465,3 +465,23 @@
 ## [581] Shortest Unsorted Continuous Subarray
 * 有想到先排好,然候比較不同的start / end
 
+## [128] Longest Consecutive Sequence
+* 這題應該放easy,但我中了數字重複的case,這部分沒注意到
+
+## [199] Binary Tree Right Side View
+*  BFS沒難度...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
