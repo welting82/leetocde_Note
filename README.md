@@ -471,16 +471,20 @@
 ## [199] Binary Tree Right Side View
 *  BFS沒難度...
 
+## [230] Kth Smallest Element in a BST
+* 運用BST特性，做in-order dfs 搜尋, 然後vector只開ｋ大小,如果滿了就直接return到底不dfs了
 
+## [129] Sum Root to Leaf Numbers
+* 用bsf一直往下加就可以了,本以為不能dfs,但順序改一下一樣可以
+* 重點是往下加,以前想不到,一直往上加去想
 
+## [235] Lowest Common Ancestor of a Binary Search Tree
+* 印象中的這題是還要先找到p然後再判斷q, 具體怎樣已經忘了
+* 不過還好想到LCA的話,不就是代表val要在中間嗎, 這樣的話可以利用BST特性去找就寫出來了
 
-
-
-
-
-
-
-
+## [173] Binary Search Tree Iterator
+* 直接用vector剛好利用他BST特性,連牌都不用排就是由小到大了
+* 再加個指針就完成了...
 
 
 
