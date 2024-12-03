@@ -500,10 +500,13 @@
 * 原本想用trie解這題，發現怎麼套都不太對，最後用最簡單的two pointer一個一個比就解了
 * 要注意它會有大量重複的case，所以要多一個hash map避免重複運算
 
+## [820] Short Encoding of Words
+* 用trie解,但這題比較特別(看題目看很久), 這題是比後綴字,所以trie要從後面建立
+* 然後我看答案是用dfs找isEnd == true的,然後要注意要避免短的重複字把isEnd洗成true
 
-820. Short Encoding of Words
-1023. Camelcase Matching
-
+## [1023] Camelcase Matching
+* 剛上上題類似,直接抓來比較可能會比較快,不然還要先建立樹
+* 然後這種題型允許中間是任意字的,對trie來說不好處理
 
 
 
