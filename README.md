@@ -486,6 +486,61 @@
 * 直接用vector剛好利用他BST特性,連牌都不用排就是由小到大了
 * 再加個指針就完成了...
 
+## [1455] Check If a Word Occurs As a Prefix of Any Word in a Sentence
+* 直覺想到hash table 或是trie, 最後兩個都有寫出來
+
+## [2109] Adding Spaces to a String
+* insert還比我while一個一個加還慢
+
+## [720] Longest Word in Dictionary
+* 用trie做出來惹，但很慢，一直感覺可以用其他更快的方式
+* 嘗試先sort後再for loop 判斷，但這樣會卡在on->ondp->ot->oti->otiq(expected result)這種case
+
+## [792] Number of Matching Subsequences
+* 原本想用trie解這題，發現怎麼套都不太對，最後用最簡單的two pointer一個一個比就解了
+* 要注意它會有大量重複的case，所以要多一個hash map避免重複運算
+
+
+820. Short Encoding of Words
+1023. Camelcase Matching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

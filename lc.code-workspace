@@ -14,7 +14,9 @@
 			"unordered_map": "cpp",
 			"ostream": "cpp",
 			"array": "cpp",
-			"utility": "cpp"
+			"utility": "cpp",
+			"iosfwd": "cpp",
+			"sstream": "cpp"
 		}
 	}
 }
