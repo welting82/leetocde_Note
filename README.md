@@ -508,6 +508,9 @@
 * 剛上上題類似,直接抓來比較可能會比較快,不然還要先建立樹
 * 然後這種題型允許中間是任意字的,對trie來說不好處理
 
+## [47] Permutations II
+* back trace還是不熟，看了一下Permutations I，我是用dfs完成，有點不太一樣，這次用hash map卡到不能在裡面存vector，就不想寫了...
+* 這題看答案卡很久處理重複的部分，解說參考:https://anj910.medium.com/leetcode-47-permutations-ii-%E4%B8%AD%E6%96%87-a1c62414901e
 
 
 
@@ -516,6 +519,10 @@
 
 
 
+
+48. Rotate Image
+49. Group Anagrams
+53. Maximum Subarray
 
 
 
