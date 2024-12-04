@@ -512,6 +512,18 @@
 * back trace還是不熟，看了一下Permutations I，我是用dfs完成，有點不太一樣，這次用hash map卡到不能在裡面存vector，就不想寫了...
 * 這題看答案卡很久處理重複的部分，解說參考:https://anj910.medium.com/leetcode-47-permutations-ii-%E4%B8%AD%E6%96%87-a1c62414901e
 
+## [48] Rotate Image
+*  迷思在i,j裡面＠＠, 看到有人用(i,i)當base,一個一個換
+*  答案有用trasport + reverse each line
+
+## [49] Group Anagrams
+* 終究還是用hash map 完成,注意下面宣告方式
+* unordered_map<int,vector<string>> => ok
+* unordered_set<vector<string>> => ng
+
+## [53] Maximum Subarray
+* 寫出來了,但感覺不是很理想,時間太碎片
+* 明明應該是簡單的題目但想太久
 
 
 
@@ -520,9 +532,7 @@
 
 
 
-48. Rotate Image
-49. Group Anagrams
-53. Maximum Subarray
+
 
 
 
