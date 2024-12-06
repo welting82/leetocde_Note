@@ -529,7 +529,7 @@
 * 以為用back trace可以解,結果又寫不出來了...,看答案才發現是dp
 * 但這題是比較簡單的dp
 
-93. Restore IP Addresses
+## [93] Restore IP Addresses
 * 看答案寫出來的,踩了很多雷點
 * 不過這題跟上一題蠻接近的
 
