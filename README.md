@@ -525,6 +525,9 @@
 * 寫出來了,但感覺不是很理想,時間太碎片
 * 明明應該是簡單的題目但想太久
 
+## [2554] Maximum Number of Integers to Choose From a Range I
+* 蠻問號的一題，用set就可以解
+
 ## [91] Decode Ways
 * 以為用back trace可以解,結果又寫不出來了...,看答案才發現是dp
 * 但這題是比較簡單的dp
@@ -546,6 +549,7 @@
 ## [787] Cheapest Flights Within K Stops
 * 標準的旅行商問題,但我沒想到用Dijkstra解,也沒背熟,也忘了他是BFS....
 * 自己用dfs蠻幹, 卡在vis vector處理不好,看答案也沒人這樣做
+
 
 
 
