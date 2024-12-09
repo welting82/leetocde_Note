@@ -533,8 +533,19 @@
 * 看答案寫出來的,踩了很多雷點
 * 不過這題跟上一題蠻接近的
 
+## [912] Sort an Array
+* merge sort 背熟！！！
 
+## [973] K Closest Points to Origin
+* 照直覺寫就可以了
 
+## [855] Exam Room
+* 感覺是要可以寫出來的題目,但最後還是沒寫出來
+* 在處理找空位時，要想一下怎麼做比較好
+
+## [787] Cheapest Flights Within K Stops
+* 標準的旅行商問題,但我沒想到用Dijkstra解,也沒背熟,也忘了他是BFS....
+* 自己用dfs蠻幹, 卡在vis vector處理不好,看答案也沒人這樣做
 
 
 
