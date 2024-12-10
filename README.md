@@ -547,10 +547,19 @@
 * 標準的旅行商問題,但我沒想到用Dijkstra解,也沒背熟,也忘了他是BFS....
 * 自己用dfs蠻幹, 卡在vis vector處理不好,看答案也沒人這樣做
 
+## [382] Linked List Random Node
+* 最簡單的方式是用vector存,然後有長度了就可以rand() vector範圍
 
+## [725] Split Linked List in Parts
+* 解法很直覺,但細節很多要處理
 
+## [817] Linked List Components
+* 這題很像是union find,但應該是用不到這麼複雜(其實也忘了怎麼寫...)
+* 想法是找連續的數組,所以用兩層while loop來解
 
-
+## [707] Design Linked List
+* 用vector偷吃步解法
+* 用linklist 寫了一堆bug = = , 但概念上是沒錯,只是debug de到不知道怎麼處理
 
 
 
