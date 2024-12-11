@@ -553,6 +553,19 @@
 ## [3152] Special Array II
 * 卡在前面表示奇偶的矩陣沒處理好(資料架沒寫好)，所以最後判斷區間有問題
 
+## [382] Linked List Random Node
+* 最簡單的方式是用vector存,然後有長度了就可以rand() vector範圍
+
+## [725] Split Linked List in Parts
+* 解法很直覺,但細節很多要處理
+
+## [817] Linked List Components
+* 這題很像是union find,但應該是用不到這麼複雜(其實也忘了怎麼寫...)
+* 想法是找連續的數組,所以用兩層while loop來解
+
+## [707] Design Linked List
+* 用vector偷吃步解法
+* 用linklist 寫了一堆bug = = , 但概念上是沒錯,只是debug de到不知道怎麼處理
 
 
 
