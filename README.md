@@ -570,11 +570,23 @@
 * 用vector偷吃步解法
 * 用linklist 寫了一堆bug = = , 但概念上是沒錯,只是debug de到不知道怎麼處理
 
+## [2779] Maximum Beauty of an Array After Applying Operation
+* 不難，快想出來了，方向確定是對的，只是放棄了
+* 答案寫的比較不直觀，但基本上是差不多的
 
 
 
+2327. Number of People Aware of a Secret
+Med.
 
+2526. Find Consecutive Integers from a Data Stream
+Med.
 
+2762. Continuous Subarrays
+Med.
+
+2944. Minimum Number of Coins for Fruits
+Med.
 
 
 
