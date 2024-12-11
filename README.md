@@ -574,19 +574,18 @@
 * 不難，快想出來了，方向確定是對的，只是放棄了
 * 答案寫的比較不直觀，但基本上是差不多的
 
+## [2526] Find Consecutive Integers from a Data Stream
+* 寫過的,依然用counter就可以解
 
+## [2944] Minimum Number of Coins for Fruits
+* 有想到dp,但不知道要怎麼做,感覺跟之前一樣用pq結果都會爆記憶體
 
-2327. Number of People Aware of a Secret
-Med.
+## [2327] Number of People Aware of a Secret
+* 看到還是沒啥想法 + 不想寫,只記得是dp解
 
-2526. Find Consecutive Integers from a Data Stream
-Med.
+## [2762] Continuous Subarrays
+*  累了....,沒啥太多想法
 
-2762. Continuous Subarrays
-Med.
-
-2944. Minimum Number of Coins for Fruits
-Med.
 
 
 
