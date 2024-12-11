@@ -553,6 +553,9 @@
 ## [3152] Special Array II
 * 卡在前面表示奇偶的矩陣沒處理好(資料架沒寫好)，所以最後判斷區間有問題
 
+## [2981] Find Longest Special Substring That Occurs Thrice I
+* 有寫出來，用map紀錄freq，紀錄時每次str從頭到尾跑一次即可
+
 ## [382] Linked List Random Node
 * 最簡單的方式是用vector存,然後有長度了就可以rand() vector範圍
 
@@ -566,6 +569,8 @@
 ## [707] Design Linked List
 * 用vector偷吃步解法
 * 用linklist 寫了一堆bug = = , 但概念上是沒錯,只是debug de到不知道怎麼處理
+
+
 
 
 
