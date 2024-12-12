@@ -459,7 +459,7 @@
 
 ## [636] Exclusive Time of Functions
 * 這題題目講得很複雜,光搞懂就花了15分鐘...,然後有兩個地方卡關
-* 一個是log的處理,但是例外在用一個struct處理string
+* 一個是log的處理,但是另外再用一個struct處理string
 * 另一個就是stack要怎麼操作,實在沒想法(看答案是用扣的)
 
 ## [581] Shortest Unsorted Continuous Subarray
@@ -589,19 +589,18 @@
 ## [2558] Take Gifts From the Richest Pile
 * easy, 直覺解
 
+## [581] Shortest Unsorted Continuous Subarray
+* 跟另一題搞混了,還以為還要再針對頭尾不一樣做處理,但其實不用
 
+## [636] Exclusive Time of Functions
+* 只記得一半, 忘了怎麼處理thread 時間重複算的部分(先扣掉)
 
-581. Shortest Unsorted Continuous Subarray
-Med.
+## [654] Maximum Binary Tree
+* dfs,照題目演算法做就好
 
-636. Exclusive Time of Functions
-Med.
-
-654. Maximum Binary Tree
-Med.
-
-678. Valid Parenthesis String
-Med.
+## [678] Valid Parenthesis String
+* 有想到是stack, 然後有看了一下hint説要用兩個stack做
+* 想了一下,用cnt紀錄'*'就好,不用多開一個stack記一樣的東西
 
 
 
