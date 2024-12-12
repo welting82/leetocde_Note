@@ -586,10 +586,22 @@
 ## [2762] Continuous Subarrays
 *  累了....,沒啥太多想法
 
+## [2558] Take Gifts From the Richest Pile
+* easy, 直覺解
 
 
 
+581. Shortest Unsorted Continuous Subarray
+Med.
 
+636. Exclusive Time of Functions
+Med.
+
+654. Maximum Binary Tree
+Med.
+
+678. Valid Parenthesis String
+Med.
 
 
 
