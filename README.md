@@ -602,9 +602,23 @@
 * 有想到是stack, 然後有看了一下hint説要用兩個stack做
 * 想了一下,用cnt紀錄'*'就好,不用多開一個stack記一樣的東西
 
+## [2593] Find Score of an Array After Marking All Elements
+* 原本以爲我的想法太簡單,需要在debug,結果看了答案好像想法是一樣的,原來是差在排序沒搞好
+* 照說明的演算法寫就可以解了
+
+## [229] Majority Element II
+* 用hash map解,or 看解答也是可以sort後慢慢累計cnt
+
+## [166] Fraction to Recurring Decimal
+* 想不到小數部分要怎麼寫，跟沒想法差不多...
+* 沒想到還是用hash map去處理餘數
+
+## [187] Repeated DNA Sequences
+* 用for loop 跑過一次存在hash map,再去查freq就解了
 
 
-
+## [208] Implement Trie (Prefix Tree)
+* 前面寫過,再複習一次
 
 
 
