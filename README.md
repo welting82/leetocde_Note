@@ -616,12 +616,21 @@
 ## [187] Repeated DNA Sequences
 * 用for loop 跑過一次存在hash map,再去查freq就解了
 
-
 ## [208] Implement Trie (Prefix Tree)
 * 前面寫過,再複習一次
 
+## [236] Lowest Common Ancestor of a Binary Tree
+* 還是不會,已經不會三次了...
+* 但感覺好像有記得什麼
 
+## [331] Verify Preorder Serialization of a Binary Tree
+* 想到的是用stack,但好像又太多餘,結果還是看了答案,一樣不會還是不會
 
+## [337] House Robber III
+* greed 不熟,這題要分析成一定要搶 & 不搶,後面就dfs而已 
+    
+## [341] Flatten Nested List Iterator
+* 沒感覺到進步....
 
 
 
