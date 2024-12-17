@@ -632,9 +632,12 @@
 ## [341] Flatten Nested List Iterator
 * 沒感覺到進步....
 
+## [1268] Search Suggestions System
+* 這題不要用trie還比較快,但今天是練習trie...
 
-
-
+## [3043] Find the Length of the Longest Common Prefix
+* 應該是寫得出來,但沒有很熟就看答案
+* 用hash map or trie都可以
 
 
 
