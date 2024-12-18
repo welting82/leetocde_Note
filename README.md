@@ -555,6 +555,10 @@
 
 ## [2981] Find Longest Special Substring That Occurs Thrice I
 * 有寫出來，用map紀錄freq，紀錄時每次str從頭到尾跑一次即可
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 ## [382] Linked List Random Node
 * 最簡單的方式是用vector存,然後有長度了就可以rand() vector範圍
@@ -639,6 +643,11 @@
 * 應該是寫得出來,但沒有很熟就看答案
 * 用hash map or trie都可以
 
+## [2182] Construct String With Repeat Limit
+* 想法其實蠻多的，但直接排string會TLE，最後用map + while，先把最大的字元處理掉就對了
+
+## [1475] Final Prices With a Special Discount in a Shop
+* 直覺解，但看到有人用stack做，看起來需要推理一下
 
 
 
