@@ -649,14 +649,17 @@
 ## [1475] Final Prices With a Special Discount in a Shop
 * 直覺解，但看到有人用stack做，看起來需要推理一下
 
+## [56] Merge Intervals
+* sort完比大小就好
 
+## [57] Insert Interval
+* 怎麼感覺這題比56還難，但都是區間比大小而已
 
+## [59] Spiral Matrix II
+* 邊間條件要注意好就好,沒啥演算法要思考,都在debug居多
 
-
-
-
-
-
+## [63] Unique Paths II
+* 以前考過的白板題,就一般dp
 
 
 
