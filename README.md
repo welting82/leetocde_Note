@@ -670,11 +670,12 @@
 * 這題我先parse出來到vector<int>後比較,ss要記得clear()
 * 比較的時候要注意長度問題,同時也會影響到大小,ex: 1.0 v.s. 1.0.1
 
+## [166] Fraction to Recurring Decimal
+* 幾天前才寫,馬上又忘了...,果然記不起來
 
-
-
-
-
+## [179] Largest Number
+* 又想太多惹, 我一直在想要用int 型別的方式sort,但卡了很多例外
+* 看答案做法是先轉成string後再sort
 
 
 
