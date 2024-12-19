@@ -662,6 +662,14 @@
 * 以前考過的白板題,就一般dp
 
 
+## [151] Reverse Words in a String
+* 用getline()秒殺～
+
+165. Compare Version Numbers
+* 用getline真的方便很多,雖然我感覺可能會慢一點
+* 這題我先parse出來到vector<int>後比較,ss要記得clear()
+* 比較的時候要注意長度問題,同時也會影響到大小,ex: 1.0 v.s. 1.0.1
+
 
 
 
