@@ -692,8 +692,9 @@
 * 跟之前某一題很像(不要相鄰之類的)，但反正依樣蒐集完後，直接空一格排上
 * 他這題還有保證一定有答案，如果蠻答案可能還要再加判斷式
 
-1353. Maximum Number of Events That Can Be Attended
-
+## [1353] Maximum Number of Events That Can Be Attended
+* 想不出來,看答案ＱＱ,不知道要怎麼把pq用在這題
+* 不過其實模擬排行程的概念應該就可以解了
 
 
 
