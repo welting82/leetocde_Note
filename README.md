@@ -677,18 +677,22 @@
 * 又想太多惹, 我一直在想要用int 型別的方式sort,但卡了很多例外
 * 看答案做法是先轉成string後再sort
 
+## [2415] Reverse Odd Levels of Binary Tree
+* 原本想用bfs做，越做越覺得好複雜QQ，最後才想到dfs + swap
 
+## [1338] Reduce Array Size to The Half
+* 先收集freq，然後丟到pq後再慢慢砍掉
 
+## [1094] Car Pooling
+* 先用上車點排序，然後for loop到pq，並用pq紀錄車上要下車的站 & 人數
+* for loop中要記得把到站的人pop掉
+* 答案寫得很簡單，把trips改成vector<int> 紀錄上車幾人，下車幾人就好了
 
+## [1054] Distant Barcodes
+* 跟之前某一題很像(不要相鄰之類的)，但反正依樣蒐集完後，直接空一格排上
+* 他這題還有保證一定有答案，如果蠻答案可能還要再加判斷式
 
-
-
-
-
-
-
-
-
+1353. Maximum Number of Events That Can Be Attended
 
 
 
