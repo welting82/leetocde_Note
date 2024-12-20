@@ -649,21 +649,33 @@
 ## [1475] Final Prices With a Special Discount in a Shop
 * 直覺解，但看到有人用stack做，看起來需要推理一下
 
+## [56] Merge Intervals
+* sort完比大小就好
+
+## [57] Insert Interval
+* 怎麼感覺這題比56還難，但都是區間比大小而已
+
+## [59] Spiral Matrix II
+* 邊間條件要注意好就好,沒啥演算法要思考,都在debug居多
+
+## [63] Unique Paths II
+* 以前考過的白板題,就一般dp
 
 
+## [151] Reverse Words in a String
+* 用getline()秒殺～
 
+165. Compare Version Numbers
+* 用getline真的方便很多,雖然我感覺可能會慢一點
+* 這題我先parse出來到vector<int>後比較,ss要記得clear()
+* 比較的時候要注意長度問題,同時也會影響到大小,ex: 1.0 v.s. 1.0.1
 
+## [166] Fraction to Recurring Decimal
+* 幾天前才寫,馬上又忘了...,果然記不起來
 
-
-
-
-
-
-
-
-
-
-
+## [179] Largest Number
+* 又想太多惹, 我一直在想要用int 型別的方式sort,但卡了很多例外
+* 看答案做法是先轉成string後再sort
 
 
 
