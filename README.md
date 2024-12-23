@@ -696,13 +696,15 @@
 * 想不出來,看答案ＱＱ,不知道要怎麼把pq用在這題
 * 不過其實模擬排行程的概念應該就可以解了
 
+## [1019] Next Greater Node In Linked List
+* for loop + stack紀錄比較小的就可以了
 
+## [1367] Linked List in Binary Tree
+* 迷路在dfs中...,解不了重複出現的問題,ex:[2,2,1], 樹裡面有[2,2,2,1]
+* 用bfs + dfs似乎簡單很多
 
-
-
-
-
-
+## [1472] Design Browser History
+* 就一般的雙向linlist操作
 
 
 
