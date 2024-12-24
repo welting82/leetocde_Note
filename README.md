@@ -693,7 +693,7 @@
 * 他這題還有保證一定有答案，如果蠻答案可能還要再加判斷式
 
 ## [1353] Maximum Number of Events That Can Be Attended
-* 想不出來,看答案ＱＱ,不知道要怎麼把pq用在這題
+* 想不出來,看答案QQ,不知道要怎麼把pq用在這題
 * 不過其實模擬排行程的概念應該就可以解了
 
 ## [1019] Next Greater Node In Linked List
@@ -705,6 +705,15 @@
 
 ## [1472] Design Browser History
 * 就一般的雙向linlist操作
+
+## [2471] Minimum Number of Operations to Sort a Binary Tree by Level
+* bfs沒問題，問題是卡在不知道swap怎麼做操作才符合題意
+* 看解答先紀錄每個質問位置後sort，然後再去一個一個swap
+
+
+
+
+
 
 
 
