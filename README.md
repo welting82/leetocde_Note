@@ -715,14 +715,19 @@
 * 這樣題目就變得很簡單
 
 
+## [2944] Minimum Number of Coins for Fruits
+* 還是沒fu,代表上次只是抄而已,沒記下來
+* 這次有嘗試了解用deque怎麼做
+* 三個步驟, 先pop掉不具引響力的index
+* 然後從後面比較當前index是不是最小結果
+* 最後再把dq.front寫到dp裏
 
 
+## [3191.] Minimum Operations to Make Binary Array Elements Equal to One I
+* 還好有想到最少步數的方式就是從前面開始遇到0就翻直到最後湊不成3個為止
+* 然後判斷是不是都是1,可以用數的,也可以只看最後兩個是不是等於1就好
 
 
-
-2944. Minimum Number of Coins for Fruits
-
-3191. Minimum Operations to Make Binary Array Elements Equal to One I
 
 
 
