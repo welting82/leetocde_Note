@@ -710,6 +710,9 @@
 * bfs沒問題，問題是卡在不知道swap怎麼做操作才符合題意
 * 看解答先紀錄每個質問位置後sort，然後再去一個一個swap
 
+## [2526] Find Consecutive Integers from a Data Stream
+* 原本用vector但TLE，代表可能要用int紀錄累積值就好
+* 這樣題目就變得很簡單
 
 
 
@@ -717,7 +720,9 @@
 
 
 
+2944. Minimum Number of Coins for Fruits
 
+3191. Minimum Operations to Make Binary Array Elements Equal to One I
 
 
 
