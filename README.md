@@ -714,7 +714,6 @@
 * 原本用vector但TLE，代表可能要用int紀錄累積值就好
 * 這樣題目就變得很簡單
 
-
 ## [2944] Minimum Number of Coins for Fruits
 * 還是沒fu,代表上次只是抄而已,沒記下來
 * 這次有嘗試了解用deque怎麼做
@@ -722,16 +721,20 @@
 * 然後從後面比較當前index是不是最小結果
 * 最後再把dq.front寫到dp裏
 
-
 ## [3191.] Minimum Operations to Make Binary Array Elements Equal to One I
 * 還好有想到最少步數的方式就是從前面開始遇到0就翻直到最後湊不成3個為止
 * 然後判斷是不是都是1,可以用數的,也可以只看最後兩個是不是等於1就好
 
+## [1014] Best Sightseeing Pair
+* dp想不到..., 答案是拆解成max(score) = max(values[i] + values[j] + i - j) = max(values[i] + i) + max(values[j] - j)
+* 所以只要維持一個最大的，後面再用這個最大的跟idx++比較就可以了
 
+## [427] Construct Quad Tree
+* 有夠麻煩的一題，解得出來，但細節比較多一點，想法簡單就dfs到底就對了
 
-
-
-
+429. N-ary Tree Level Order Traversal
+437. Path Sum III
+449. Serialize and Deserialize BST
 
 
 

@@ -18,7 +18,8 @@
 			"iosfwd": "cpp",
 			"sstream": "cpp",
 			"vector": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"memory_resource": "cpp"
 		}
 	}
 }
