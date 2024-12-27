@@ -732,10 +732,15 @@
 ## [427] Construct Quad Tree
 * 有夠麻煩的一題，解得出來，但細節比較多一點，想法簡單就dfs到底就對了
 
-429. N-ary Tree Level Order Traversal
-437. Path Sum III
-449. Serialize and Deserialize BST
+## [429] N-ary Tree Level Order Traversal
+* BFS秒解...
 
+## [437] Path Sum III
+* 用bfs硬解, 但很慢, 這題主要是會跑遞迴中的遞迴,每個點都有可能是起點
+
+## [449] Serialize and Deserialize BST
+* encode有想到要用pre-order但decode想不到,而且也沒想到要用標點符號隔開
+* decode的做法就是for loop BST而已,然後控好root
 
 
 
