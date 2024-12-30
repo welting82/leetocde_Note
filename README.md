@@ -742,6 +742,32 @@
 * encode有想到要用pre-order但decode想不到,而且也沒想到要用標點符號隔開
 * decode的做法就是for loop BST而已,然後控好root
 
+## [1111] Maximum Nesting Depth of Two Valid Parentheses Strings
+* 題目很長,用stack做出來了,但有更快的做法
+* 用int 紀錄一邊的深度,輪流給到A / B, 這樣比較省資源
+
+## [1124] Longest Well-Performing Interval
+* 看了解答,還是沒很懂,而且很不直覺,用map存idx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
