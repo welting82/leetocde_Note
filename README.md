@@ -749,8 +749,9 @@
 ## [1124] Longest Well-Performing Interval
 * 看了解答,還是沒很懂,而且很不直覺,用map存idx
 
-
-
+## [2559] Count Vowel Strings in Ranges
+* 這禮拜都是prefix sum, 其實就是array 累加，之前都沒想到
+* 確實可以讓loop少跑一次，快蠻多的
 
 
 
