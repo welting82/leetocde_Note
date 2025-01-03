@@ -753,7 +753,8 @@
 * 這禮拜都是prefix sum, 其實就是array 累加，之前都沒想到
 * 確實可以讓loop少跑一次，快蠻多的
 
-
+## [2270] Number of Ways to Split Array
+* 不確定是不是算prefix sum, 但就蠻直覺的先加總，再區分sumL & sumR
 
 
 
